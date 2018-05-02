@@ -1,0 +1,5 @@
+package figures.gui;
+
+public aspect LogAdapter {
+
+}
