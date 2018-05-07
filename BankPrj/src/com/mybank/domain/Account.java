@@ -1,5 +1,8 @@
 package com.mybank.domain;
 
+import org.apache.commons.lang3.builder.EqualsBuilder;
+import org.apache.commons.lang3.builder.HashCodeBuilder;
+
 /**
  *
  * @author student
@@ -30,5 +33,23 @@ public class Account {
 			return true;
 		} else
 			return false;
+	}
+
+	@Override
+	public int hashCode() {
+		// TODO Auto-generated method stub
+		return new HashCodeBuilder(17, 37).append(balance).toHashCode();
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (!(obj instanceof Account))
+			return false;
+		if (obj == this)
+			return true;
+
+		Account account2 = (Account) obj;
+
+		return new EqualsBuilder().append(balance, account2.balance).isEquals();
 	}
 }
