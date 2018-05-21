@@ -1,0 +1,5 @@
+package org.exolab.castor.xml;
+
+public class JsonMarshaller extends Marshaller {
+
+}

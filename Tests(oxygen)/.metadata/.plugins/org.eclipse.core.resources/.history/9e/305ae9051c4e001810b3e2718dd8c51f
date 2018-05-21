@@ -1,5 +1,0 @@
-package figures;
-
-public abstract class ShapeFigureElement {
-
-}
