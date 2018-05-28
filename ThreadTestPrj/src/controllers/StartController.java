@@ -52,7 +52,7 @@ public class StartController implements Runnable{
 		startButton.setEnabled(false);
 		//RejectedExecutionHandler implementation
         RejectedExecutionHandlerImpl rejectionHandler = new RejectedExecutionHandlerImpl();
-        
+        rejectionHandler.setArea(areaThreads);
         //Get the ThreadFactory implementation to use
         ThreadFactory threadFactory = Executors.defaultThreadFactory();
         
