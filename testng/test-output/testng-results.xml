@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="44" total="48" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="51" started-at="2018-06-02T09:35:12Z" finished-at="2018-06-02T09:35:12Z">
+    <groups>
+    </groups>
+    <test name="econfig_first" duration-ms="21" started-at="2018-06-02T09:35:12Z" finished-at="2018-06-02T09:35:12Z">
+      <class name="test.TestNewAnnotation1">
+        <test-method status="PASS" signature="test1_n()[pri:0, instance:test.TestNewAnnotation1@68c4039c]" name="test1_n" duration-ms="7" started-at="2018-06-02T09:35:12Z" finished-at="2018-06-02T09:35:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1_n -->
+      </class> <!-- test.TestNewAnnotation1 -->
+    </test> <!-- econfig_first -->
+    <test name="econfig_second" duration-ms="4" started-at="2018-06-02T09:35:12Z" finished-at="2018-06-02T09:35:12Z">
+      <class name="test.TestNewAnnotation3">
+        <test-method status="PASS" signature="test2_1_n()[pri:0, instance:test.TestNewAnnotation3@f6c48ac]" name="test2_1_n" duration-ms="1" started-at="2018-06-02T09:35:12Z" finished-at="2018-06-02T09:35:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2_1_n -->
+        <test-method status="PASS" signature="test2_2_n()[pri:0, instance:test.TestNewAnnotation3@f6c48ac]" name="test2_2_n" duration-ms="0" started-at="2018-06-02T09:35:12Z" finished-at="2018-06-02T09:35:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2_2_n -->
+      </class> <!-- test.TestNewAnnotation3 -->
+    </test> <!-- econfig_second -->
+    <test name="econfig_third" duration-ms="2" started-at="2018-06-02T09:35:12Z" finished-at="2018-06-02T09:35:12Z">
+      <class name="test.TestNewAnnotation2">
+        <test-method status="PASS" signature="test3_n()[pri:0, instance:test.TestNewAnnotation2@5f341870]" name="test3_n" duration-ms="0" started-at="2018-06-02T09:35:12Z" finished-at="2018-06-02T09:35:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3_n -->
+      </class> <!-- test.TestNewAnnotation2 -->
+    </test> <!-- econfig_third -->
+  </suite> <!-- Suite -->
+</testng-results>
